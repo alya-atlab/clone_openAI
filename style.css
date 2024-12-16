@@ -109,20 +109,24 @@ header ul li {
 .product {
   position: relative;
 }
-.product .container .title {
+.product .container .title,
+.research .title {
   margin: 40px 100px;
   font-size: 30px;
 }
-.product .cards {
+.product .cards,
+.research .cards {
   margin-left: 100px;
   display: flex;
   gap: 20px;
 }
-.product .card {
+.product .card,
+.research .card {
   position: relative;
 }
 .product .card video,
-.product .card img {
+.product .card img,
+.research .card img {
   width: 320px;
   border-radius: 10px;
   height: 500px;
@@ -130,11 +134,13 @@ header ul li {
 .product .card video {
   height: 437px;
 }
-.product .card .product-title {
+.product .card .product-title,
+.research .card .research-title {
   position: absolute;
   top: 30px;
 }
-.product .desciption {
+.product .desciption,
+.research .desciption {
   position: absolute;
-  bottom: 20px;
+  bottom: 50px;
 }
