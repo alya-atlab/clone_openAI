@@ -111,26 +111,30 @@ header ul li {
 }
 .product .container .title,
 .research .title,
-.for-business .title {
+.for-business .title,
+.for-dev .title {
   margin: 40px 100px;
   font-size: 30px;
 }
 .product .cards,
 .research .cards,
-.for-business .cards {
+.for-business .cards,
+.for-dev .cards {
   margin-left: 100px;
   display: flex;
   gap: 20px;
 }
 .product .card,
 .research .card,
-.for-business .card {
+.for-business .card,
+.for-dev .card {
   position: relative;
 }
 .product .card video,
 .product .card img,
 .research .card img,
-.for-business .card img {
+.for-business .card img,
+.for-dev .card img {
   width: 320px;
   border-radius: 10px;
   height: 500px;
@@ -140,13 +144,15 @@ header ul li {
 }
 .product .card .product-title,
 .research .card .research-title,
-.for-business .card .for-business-title {
+.for-business .card .for-business-title,
+.for-dev .card .for-dev-title {
   position: absolute;
   top: 30px;
 }
 .product .desciption,
 .research .desciption,
-.for-business .desciption {
+.for-business .desciption,
+.for-dev .desciption {
   position: absolute;
   bottom: 50px;
 }
